@@ -1,0 +1,79 @@
+header {
+    height: 122px;
+    padding: 0 78px;
+    box-shadow: 0px 3px 6px #00000012;
+}
+
+header .logo {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wrapper-1 {
+    margin: 130px auto;
+}
+
+.content-in {
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 35px;
+}
+
+.clients {
+    margin: 0 -30px 100px;
+    position: relative;
+}
+
+.clients .client {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 30px;
+}
+
+.clients .client .image {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    margin-bottom: 25px;
+}
+
+.clients .client .image .visual {
+    background-color: #dbdbdb;
+    border-radius: 50%;
+}
+
+.clients .add-new {
+    position: absolute;
+    right: -140px;
+    top: 30px;
+    text-align: left;
+}
+
+.clients .add-new button {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 0;
+    position: relative;
+    outline: none;
+}
+
+.clients .add-new button:before,
+.clients .add-new button:after {
+    content: "";
+    width: 5px;
+    height: 35px;
+    background: #82C0E5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.clients .add-new button:after {
+    transform: translate(-50%,-50%) rotate(90deg);
+}
