@@ -11,7 +11,7 @@ header .logo {
 }
 
 .wrapper-1 {
-    margin: 130px auto;
+    margin: 130px auto 0;
 }
 
 .content-in {
@@ -48,9 +48,20 @@ h1 {
 
 .clients .add-new {
     position: absolute;
-    right: -140px;
+    right: -180px;
     top: 30px;
     text-align: left;
+}
+
+.clients .add-new p {
+    font-family: Helvetica;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #53A8DC;
+    opacity: 0.7;
+    margin-top: 10px;
 }
 
 .clients .add-new button {
@@ -60,10 +71,10 @@ h1 {
     border: 0;
     position: relative;
     outline: none;
+    background-color: #EAF4FC;
 }
 
-.clients .add-new button:before,
-.clients .add-new button:after {
+.clients .add-new button:before, .clients .add-new button:after {
     content: "";
     width: 5px;
     height: 35px;
@@ -71,9 +82,9 @@ h1 {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .clients .add-new button:after {
-    transform: translate(-50%,-50%) rotate(90deg);
+    transform: translate(-50%, -50%) rotate(90deg);
 }

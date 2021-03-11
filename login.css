@@ -38,6 +38,13 @@ body {
 .left-in .form input {
     display: block;
     margin-bottom: 15px;
+    width: 100%;
+    max-width: 406px;
+}
+
+.left-in .form .btn-1 {
+    width: 100%;
+    max-width: 406px;
 }
 
 .right-in .background {

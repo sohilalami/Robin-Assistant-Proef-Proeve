@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Helvetica;
+}
+
 .logo {
     display: block;
     width: 138px;
@@ -28,4 +32,65 @@
 
 .wrapper-1 {
     max-width: 1160px;
+}
+
+.title-1 {
+    font-size: 55px;
+    line-height: 66px;
+    font-weight: 700;
+    color: #0081C5;
+}
+
+.title-2 {
+    font-size: 65px;
+    line-height: 78px;
+    font-weight: 700;
+    color: #0081C5;
+}
+
+.title-3 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #53A8DC;
+}
+
+input {
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    border: 1px solid #707070;
+    border-radius: 27px;
+    margin: 0;
+    padding: 13px 28px;
+    outline: none;
+}
+
+.btn-1 {
+    background: #53A8DC;
+    border: 0;
+    border-radius: 27px;
+    padding: 13px;
+    outline: 0;
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.btn-2 {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #53A8DC;
+    padding: 10px 30px;
+    border: 1px solid #53A8DC;
+    border-radius: 28px;
+    outline: none;
+    background-color: #FFFFFF;
 }
