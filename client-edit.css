@@ -20,7 +20,7 @@ header .logo {
 }
 
 .edit-form {
-    margin-top: 35px;
+    margin: 35px 0 0;
 }
 
 .edit-form .image {
@@ -37,4 +37,33 @@ header .logo {
 
 .edit-form .column-1 {
     width: 145px;
+    text-align: center;
+}
+
+.edit-form .column-2 {
+    padding-left: 45px;
+}
+
+.edit-form .column-2 .column-in .text-input input {
+    width: 360px;
+}
+
+.edit-form .column-2 .column-in .text-input {
+    margin-bottom: 15px;
+}
+
+.edit-form .hr {
+    margin: 25px 0;
+}
+
+.edit-form .column-2 .hr {
+    margin: 20px 0;
+}
+.edit-form .buttons {
+    margin: 0 -10px;
+}
+.edit-form .buttons .btn-2 {
+    padding: 5px 30px;
+    float: left;
+    margin: 10px;
 }

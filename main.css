@@ -8,6 +8,12 @@ body {
     font-family: Helvetica;
 }
 
+.hr {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(112, 112, 112, .34);;
+}
+
 a {
     display: block;
     text-decoration: none;
@@ -18,6 +24,10 @@ a {
     width: 138px;
     height: 71px;
     background-color: #dbdbdb;
+}
+
+label {
+    display: block;
 }
 
 .clear {
@@ -118,4 +128,174 @@ input {
 .btn-2.blue {
     background-color: #53A8DC;
     color: #FFF;
+}
+
+.file-input span {
+    font-weight: 500;
+    font-family: Helvetica;
+    font-size: 13px;
+    line-height: 16px;
+    color: #0081C5;
+    cursor: pointer;
+    position: relative;
+    padding-left: 28px;
+}
+
+.file-input span img {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.file-input input {
+    position: absolute;
+    appearance: none;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.text-input input {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    border: 2px solid #3C9FD2;
+    border-radius: 27px;
+    margin: 0;
+    padding: 10px 30px;
+    outline: none;
+    color: #464444;
+}
+
+.select-input .select {
+    position: relative;
+}
+
+.select-input .label {
+    display: block;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0081C5;
+    margin-bottom: 10px;
+}
+
+.select-input select {
+    appearance: none;
+    outline: none;
+    margin: 0;
+    min-width: 233px;
+    padding: 10px 44px 10px 22px;
+    cursor: pointer;
+    color: #0081C5;
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    background-color: #FFFFFF;
+    border: 2px solid rgb(0, 129, 197, 0.76);
+    border-radius: 27px;
+}
+
+.select-input .arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 7.5px 0 7.5px;
+    border-color: #0081C5 transparent transparent transparent;
+    position: absolute;
+    right: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.check-input input {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.check-input .checkbox {
+    display: inline-block;
+    vertical-align: middle;
+    width: 47px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 3px solid #0081C5;
+    border-radius: 16px;
+    position: relative;
+    transition: background 250ms ease-in-out;
+}
+
+.check-input .checkbox-in {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 3px solid #0081C5;
+    border-radius: 50%;
+
+    transition: left 250ms ease-in-out;
+}
+
+.check-input input:checked + .checkbox .checkbox-in {
+    left: calc(100% - 17px);
+}
+
+.check-input input:checked + .checkbox {
+    background: #49B1E0;
+}
+
+.check-input .checkbox-in::after {
+    height: 6px;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.check-input .checkbox-in::before {
+    height: 4px;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.check-input .checkbox-in::before,
+.check-input .checkbox-in::after {
+    content: "";
+    width: 2px;
+    background: #0081C5;
+    display: block;
+    position: absolute;
+    transition: height 250ms ease-in-out,
+    top 250ms ease-in-out,
+    left 250ms ease-in-out;
+}
+
+.check-input input:not(:checked) + .checkbox .checkbox-in::before,
+.check-input input:not(:checked) + .checkbox .checkbox-in::after {
+    height: 8px;
+    top: 50%;
+    left: 50%;
+}
+
+.check-input .label {
+    display: inline-block;
+    vertical-align: middle;
+
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #0081C5;
 }
