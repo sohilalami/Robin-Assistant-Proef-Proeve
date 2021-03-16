@@ -26,9 +26,25 @@ body {
 }
 
 .left-in .form {
-    position: absolute;
-    top: 33.333%;
-    left: 18.85%;
+    display: table;
+    margin: auto;
+    table-layout: fixed;
+    height: calc(100% - 71px);
+    transform: translateX(-20%);
+}
+
+.left-in .form-in {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.left-in .form form {
+    text-align: center;
+    padding: 25px 20px;
+    margin: -25px -20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 12px #010c171d;
+    border-radius: 32px;
 }
 
 .left-in .form h1 {
@@ -37,6 +53,7 @@ body {
 
 .left-in .form input {
     display: block;
+    margin: auto;
     margin-bottom: 15px;
     width: 100%;
     max-width: 406px;
@@ -45,6 +62,26 @@ body {
 .left-in .form .btn-1 {
     width: 100%;
     max-width: 406px;
+}
+
+.left-in .form a {
+    margin: 25px 0;
+    color: #0081C5;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.left-in .form .btn-4 {
+    display: inline-block;
+}
+
+.left-in .form .btn-4 .btn-in {
+    padding: 15px 37px;
+    background: #65B443;
+    border-radius: 27px;
+    color: #FFF;
+    font-weight: 500;
 }
 
 .right-in .background {

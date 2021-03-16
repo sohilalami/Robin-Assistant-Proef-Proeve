@@ -6,6 +6,12 @@
 
 body {
     font-family: Helvetica;
+    background-color: #F9FCFE;
+}
+
+a {
+    display: block;
+    text-decoration: none;
 }
 
 .logo {
@@ -30,8 +36,23 @@ body {
     background-repeat: no-repeat;
 }
 
+.columns {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.column {
+    display: table-cell;
+    vertical-align: top;
+}
+
 .wrapper-1 {
     max-width: 1160px;
+}
+
+.wrapper-2 {
+    max-width: 663px;
 }
 
 .title-1 {
@@ -93,4 +114,9 @@ input {
     border-radius: 28px;
     outline: none;
     background-color: #FFFFFF;
+}
+
+.btn-2.blue {
+    background-color: #53A8DC;
+    color: #FFF;
 }
