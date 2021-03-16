@@ -2,6 +2,10 @@ body {
     height: 100vh;
 }
 
+body.login-page {
+    background-color: #F9FCFE;
+}
+
 .content {
     display: table;
     table-layout: fixed;
