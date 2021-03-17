@@ -19,11 +19,13 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 .logo {
     display: block;
     width: 138px;
-    height: 71px;
-    background-color: #dbdbdb;
 }
 
 label {
